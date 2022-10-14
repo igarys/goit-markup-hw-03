@@ -1,0 +1,157 @@
+
+:root {
+  --primary-color: #212121;
+  --description-color: #757575;
+  --active-text-color: #ffffff;
+  --active-background-color: #2196f3;
+  --background-color: #2F303A;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.logo {
+  text-decoration: none;
+  color: var(--active-background-color);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+}
+.list {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  list-style-type: none;
+}
+
+.list-item {
+  text-decoration: none;
+  color:var(--primary-color);
+}
+.list a:hover {
+  color:var(--active-background-color)
+}
+.list-item:active {
+  color:var(--active-background-color);
+}
+
+.list-item-contact {
+  text-decoration: none;
+  color: var(--description-color);
+}
+h1 {
+  font-family: inherit;
+  font-size: 44px;
+  font-weight: 900;
+  color: #ffffff;
+}
+.button {
+  background-color: var(--active-background-color);
+  color: var(--active-text-color);
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+}
+h4 {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+.list-item-description {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--description-color);
+}
+.team-section {
+  background-color:  #F5F4FA;
+}
+h2 {
+  font-family: inherit;
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+.workers-names {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+.ocupation {
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--description-color);
+}
+.logo-footer {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  color: var(--active-background-color);
+}
+.address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  list-style-type: none;
+  color: #ffffff;
+}
+
+.list-contact {
+  list-style-type: none;
+}
+.contact {
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+.background {
+  background-color: var(--background-color);
+}
+
+
+/* Portfolio CSS  */
+
+.button-list {
+  list-style-type: none;
+ font-family: inherit;
+}
+button:hover {
+  background:var(--active-background-color);
+  color: var(--active-text-color);
+
+}
+
+.button-list-item {
+  cursor: pointer;
+  background: #f5f4fa;
+  border: 0;
+  border-radius: 4px;
+}
+.button-list .button-list-item:active {
+  background: var(--active-background-color);
+  color: var(--active-text-color);
+}
+
+.image-list {
+  list-style-type: none;
+}
+
+
+h3 {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--primary-color);
+}
+p {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--description-color);
+}
