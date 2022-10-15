@@ -103,9 +103,9 @@ h2 {
 }
 
 .address {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71;
   list-style-type: none;
   color: #ffffff;
 }
@@ -128,7 +128,7 @@ h2 {
 
 .button-list {
   list-style-type: none;
- font-family: inherit;
+
 }
 button:hover {
   background:var(--active-background-color);
@@ -141,6 +141,9 @@ button:hover {
   background: #f5f4fa;
   border: 0;
   border-radius: 4px;
+   font-weight: 500;
+   font-family: inherit;
+
 }
 .button-list .button-list-item:active {
   background: var(--active-background-color);
