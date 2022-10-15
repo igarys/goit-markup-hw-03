@@ -44,7 +44,7 @@ body {
   text-decoration: none;
   color: var(--description-color);
 }
-h1 {
+.header {
   font-family: inherit;
   font-size: 44px;
   font-weight: 900;
@@ -57,7 +57,7 @@ h1 {
   font-size: 16px;
   font-weight: 700;
 }
-h4 {
+.lorem-ipsum {
   font-family: inherit;
   font-size: 14px;
   font-weight: 700;
@@ -72,7 +72,7 @@ h4 {
 .team-section {
   background-color:  #F5F4FA;
 }
-h2 {
+.small-header {
   font-family: inherit;
   font-size: 36px;
   font-weight: 700;
@@ -130,7 +130,7 @@ h2 {
   list-style-type: none;
 
 }
-button:hover {
+.button-list-item:hover {
   background:var(--active-background-color);
   color: var(--active-text-color);
 
@@ -141,6 +141,7 @@ button:hover {
   background: #f5f4fa;
   border: 0;
   border-radius: 4px;
+  font-size: 16px;
    font-weight: 500;
    font-family: inherit;
 
@@ -155,13 +156,13 @@ button:hover {
 }
 
 
-h3 {
+.image-header {
   font-family: inherit;
   font-weight: 700;
   font-size: 18px;
   color: var(--primary-color);
 }
-p {
+.image-description {
   font-family: inherit;
   font-weight: 400;
   font-size: 16px;
