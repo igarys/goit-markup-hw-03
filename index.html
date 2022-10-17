@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -18,63 +22,71 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a class="logo" href="./index.html"
+    <header class="header-border">
+      <div class="container header-wrapper">
+      
+        <nav class="nav-wrapper">
+         <a class="logo" href="./index.html"
           ><span>Web</span><span class="logo-studio">Studio</span>
         </a>
-        <ul class="list">
-          <li><a class="list-item" href="/">Agencja</a></li>
-          <li><a class="list-item" href="./portfolio.html">Portfolio</a></li>
-          <li><a class="list-item" href="/">Kontakt</a></li>
-        </ul>
-      </nav>
-      <div>
-        <ul class="list">
-          <li>
-            <a class="list-item-contact" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="list-item-contact" href="tel:+48111111111"
-              >+48 111 111 111</a
-            >
-          </li>
-        </ul>
+            <ul class="list nav">
+              <li><a class="list-item agencja" href="/">Agencja</a></li>
+              <li>
+                <a class="list-item" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li><a class="list-item" href="/">Kontakt</a></li>
+            </ul>
+          
+        </nav>
+        <div>
+          <ul class="list email">
+            <li>
+              <a class="list-item-contact" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="list-item-contact" href="tel:+48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
 
     <main>
-      <section class="background">
+      <section class=" section background">
+        <div class="container motto">
         <h1 class="header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
         <button class="button" type="button">Zamów usługe</button>
+        </div>
       </section>
 
-      <section>
-        <ul class="list">
-          <li>
+      <section class="section">
+        <ul class="lorem-list container">
+          <li class="lorem-item">
             <h4 class="lorem-ipsum">LOREM IPSUM</h4>
             <p class="list-item-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
+          <li class="lorem-item">
             <h4 class="lorem-ipsum">LOREM IPSUM</h4>
             <p class="list-item-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
+          <li class="lorem-item">
             <h4 class="lorem-ipsum">LOREM IPSUM</h4>
             <p class="list-item-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
               arcu sem. Sed non sodales dui. Interdum et malesuada
             </p>
           </li>
-          <li>
+          <li class="lorem-item">
             <h4 class="lorem-ipsum">LOREM IPSUM</h4>
             <p class="list-item-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
@@ -84,9 +96,9 @@
         </ul>
       </section>
 
-      <section>
+      <section class=" section container">
         <h2 class="small-header">Czym się zajmujemy</h2>
-        <ul class="list">
+        <ul class="list img-gap">
           <li>
             <img
               src="./images/box.jpg"
@@ -116,10 +128,11 @@
         </ul>
       </section>
 
-      <section class="team-section">
+      <section class="section team-section">
+        <div class="container">
         <h2 class="small-header">Nasz zespół</h2>
-        <ul class="list">
-          <li>
+        <ul class="list img-gap">
+          <li class="image-box">
             <figure>
               <img
                 src="./images/img1.jpg"
@@ -127,7 +140,7 @@
                 width="270"
                 height="260"
               />
-              <figcaption>
+              <figcaption class="team-description">
                 <h3 class="workers-names"><b>John Doe</b></h3>
 
                 <p class="ocupation">Product Designer</p>
@@ -135,7 +148,7 @@
             </figure>
           </li>
 
-          <li>
+          <li class="image-box">
             <figure>
               <img
                 src="./images/img2.jpg"
@@ -143,13 +156,13 @@
                 width="270"
                 height="260"
               />
-              <figcaption>
+              <figcaption class="team-description">
                 <h3 class="workers-names"><b>John Doe</b></h3>
                 <p class="ocupation">Frontend Developer</p>
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="image-box">
             <figure>
               <img
                 src="./images/img3.jpg"
@@ -157,13 +170,13 @@
                 width="270"
                 height="260"
               />
-              <figcaption>
+              <figcaption class="team-description">
                 <h3 class="workers-names"><b>John Doe</b></h3>
                 <p class="ocupation">Marketing</p>
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="image-box">
             <figure>
               <img
                 src="./images/img4.jpg"
@@ -171,21 +184,25 @@
                 width="270"
                 height="260"
               />
-              <figcaption>
+              <figcaption class="team-description">
                 <h3 class="workers-names"><b>John Doe</b></h3>
                 <p class="ocupation">UI Designer</p>
               </figcaption>
             </figure>
           </li>
         </ul>
+      </div>
       </section>
     </main>
     <footer class="background">
-      <a class="logo-footer" href="#"><span>Web</span><span class="logo-studio">Studio</span></a>
+      <div class="container footer-padding">
+      <a class="logo-footer" href="#"
+        ><span>Web</span><span class="logo-studio">Studio</span></a
+      >
       <address>
         <ul class="address">
           <li>m. Warszawa, Aleje Jerozolimskie 21</li>
-      </ul>
+        </ul>
       </address>
       <ul class="list-contact">
         <li>
@@ -193,6 +210,7 @@
         </li>
         <li><a class="contact" href="+48111111111">+48 111 111 111</a></li>
       </ul>
+      </div>
     </footer>
   </body>
 </html>

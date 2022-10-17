@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize/modern-normalize.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,35 +23,42 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <nav>
-        <a class="logo" href="./index.html"> <span>Web</span><span class="logo-studio">Studio</span></a>
-        <ul class="list">
-          <li><a class="list-item" href="/">Agencja</a></li>
-          <li>
-            <a class="list-item portfolio" href="./Portfolio">Portfolio</a>
-          </li>
-          <li><a class="list-item" href="/">Kontakt</a></li>
-        </ul>
-      </nav>
-      <div>
-        <ul class="list">
-          <li>
-            <a class="list-item-contact" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="list-item-contact" href="tel:+48111111111"
-              >+48 111 111 111</a
-            >
-          </li>
-        </ul>
+        <header class="header-border">
+      <div class="container header-wrapper">
+        <a class="logo" href="./index.html"
+          ><span>Web</span><span class="logo-studio">Studio</span>
+        </a>
+        <nav>
+          <div>
+            <ul class="list nav">
+              <li><a class="list-item agencja" href="/">Agencja</a></li>
+              <li>
+                <a class="list-item" href="./portfolio.html">Portfolio</a>
+              </li>
+              <li><a class="list-item" href="/">Kontakt</a></li>
+            </ul>
+          </div>
+        </nav>
+        <div>
+          <ul class="list email">
+            <li>
+              <a class="list-item-contact" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="list-item-contact" href="tel:+48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
-    <main>
-      <div>
-        <ul class="button-list">
+
+    <main class="section">
+      <div class="container">
+        <ul class="button-list button-wrapper">
           <li>
             <button class="button-list-item" type="button">Wszystkie</button>
           </li>
@@ -65,9 +76,9 @@
           </li>
         </ul>
       </div>
-      <div>
-        <ul class="image-list">
-          <li>
+      <div class="container">
+        <ul class="image-list image-wrapper">
+          <li class="image-box">
             <figure>
               <img
                 src="./images/img.jpg"
@@ -81,7 +92,7 @@
             </figure>
           </li>
 
-          <li>
+          <li class="image-box">
             <figure>
               <img
                 src="./images/img(1).jpg"
@@ -94,7 +105,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="image-box">
             <figure>
               <img
                 src="./images/img(2).jpg"
@@ -108,7 +119,7 @@
             </figure>
           </li>
 
-          <li>
+          <li class=" image-box">
             <figure>
               <img src="./images/img(3).jpg" alt="headphones" width="370" />
               <figcaption>
@@ -117,7 +128,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class="image-box">
             <figure>
               <img src="./images/img(4).jpg" alt="two boxes" width="370" />
               <figcaption>
@@ -126,7 +137,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class=" image-box">
             <figure>
               <img
                 src="./images/img(5).jpg"
@@ -139,7 +150,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class=" image-box">
             <figure>
               <img src="./images/img(6).jpg" alt="an open book" width="370" />
 
@@ -149,7 +160,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class=" image-box">
             <figure>
               <img src="./images/img(7).jpg" alt="label tag" width="370" />
 
@@ -159,7 +170,7 @@
               </figcaption>
             </figure>
           </li>
-          <li>
+          <li class=" image-box">
             <figure>
               <img
                 src="./images/img(8).jpg"
@@ -177,12 +188,15 @@
       </div>
     </main>
 
-    <footer class="background">
-      <a class="logo-footer" href="#"><span>Web</span><span class="logo-studio">Studio</span></a>
+ <footer class="background">
+      <div class="container footer-padding">
+      <a class="logo-footer" href="#"
+        ><span>Web</span><span class="logo-studio">Studio</span></a
+      >
       <address>
         <ul class="address">
-         <li>m. Warszawa, Aleje Jerozolimskie 21</li>
-      </ul>
+          <li>m. Warszawa, Aleje Jerozolimskie 21</li>
+        </ul>
       </address>
       <ul class="list-contact">
         <li>
@@ -190,6 +204,7 @@
         </li>
         <li><a class="contact" href="+48111111111">+48 111 111 111</a></li>
       </ul>
+      </div>
     </footer>
   </body>
 </html>
