@@ -17,31 +17,30 @@ body {
   font-weight: 700;
   font-size: 26px;
   margin-right: 93px;
-  
- 
 }
 .logo-studio {
   color: var(--primary-color);
 }
 
-.list, .lorem-list {
+.list,
+.lorem-list {
   font-family: inherit;
   font-weight: 500;
   font-size: 14px;
   list-style-type: none;
   display: flex;
   padding: 0;
-flex-flow: wrap;
+  flex-flow: wrap;
+  padding-left: 0;
+  margin: 0;
 }
 .lorem-list {
- gap: 30px;
- justify-content: center;
+  gap: 30px;
+  justify-content: center;
 }
 .lorem-item {
   max-width: 270px;
-
 }
-
 
 .list-item {
   text-decoration: none;
@@ -64,8 +63,6 @@ flex-flow: wrap;
   font-weight: 900;
   color: #ffffff;
  
- 
-
 }
 .button {
   background-color: var(--active-background-color);
@@ -76,11 +73,8 @@ flex-flow: wrap;
   border-radius: 4px;
   border: none;
   padding-block: 10px;
-  padding-left:42px;
-  padding-right: 41px
-  
-
- 
+  padding-left: 42px;
+  padding-right: 41px;
 }
 .lorem-ipsum {
   font-family: inherit;
@@ -94,8 +88,9 @@ flex-flow: wrap;
   font-weight: 400;
   color: var(--description-color);
 }
-.team-section {
+.team-background {
   background-color: #f5f4fa;
+margin-top: 94px;
 }
 .small-header {
   font-family: inherit;
@@ -103,18 +98,25 @@ flex-flow: wrap;
   font-weight: 700;
   color: var(--primary-color);
   text-align: center;
+  margin: 0;
+  margin-bottom: 50px;
 }
 .workers-names {
   font-family: inherit;
   font-size: 16px;
   font-weight: 500;
   color: var(--primary-color);
+  margin: 0;
+  padding-top: 30px;
 }
 .ocupation {
   font-family: inherit;
   font-size: 16px;
   font-weight: 400;
   color: var(--description-color);
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 30px;
 }
 .logo-footer {
   text-decoration: none;
@@ -155,7 +157,6 @@ flex-flow: wrap;
 
 .button-list {
   list-style-type: none;
-  
 }
 .button-list-item:hover {
   background: var(--active-background-color);
@@ -180,6 +181,10 @@ flex-flow: wrap;
 
 .image-list {
   list-style-type: none;
+  display: inline-flex;
+  flex-flow: wrap;
+  max-width: 1200px;
+  padding-left: 0;
 }
 
 .image-header {
@@ -187,12 +192,16 @@ flex-flow: wrap;
   font-weight: 700;
   font-size: 18px;
   color: var(--primary-color);
+  margin-top: 20px;
+  margin-bottom: 4px;
 }
 .image-description {
   font-family: inherit;
   font-weight: 400;
   font-size: 16px;
   color: var(--description-color);
+  margin: 0;
+  padding-bottom: 20px;
 }
 
 /* HW 03 */
@@ -201,79 +210,73 @@ flex-flow: wrap;
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  box-sizing: border-box; 
+  box-sizing: border-box;
   padding: 0 15px;
-
 }
 .section {
   padding-block: 94px;
 }
 .header-wrapper {
-  box-sizing:border-box;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 80px;
 }
-  
+.motto-wrapper {
+  background-color: var(--background-color);
+  height: 600px;
+  display: flex;
+  /* text-align: center;
+       justify-content: center; */
+}
 .header-border {
   border-bottom: 1px solid #ececec;
 }
 .nav {
   gap: 46px;
-   
 }
 .email {
-
   gap: 50px;
-
 }
 
 .motto {
+  margin: 0 auto;
   text-align: center;
   justify-content: center;
   width: 696px;
   flex-wrap: wrap;
+  display: flexbox;
 }
 
- .team-description {
+/* .team-description {
   text-align: center;
- }
+ } */
 .image-box {
   box-sizing: border-box;
   background-color: var(--active-text-color);
-
-  height: 368px;
-  max-width: 270px;
-border: 1px solid 
-#EEEEEE;
-/* flex-basis: calc((100% - 2 * 30px)/ 3); */
+  border: 1px solid #eeeeee;
+  justify-content: center;
+  text-align: center;
+  margin: 0.4px;
+  gap: 30px;
 }
 .footer-padding {
   padding-block: 60px;
 }
 .button-wrapper {
   box-sizing: border-box;
- display: flex;
- justify-content: center;
- gap: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
 }
-.image-wrapper {
-  display: inline-flex;
-  flex-wrap: wrap;
-  flex-basis: calc((100% - 2 * 30px)/ 3);
-  
-   gap: 30px;
-    
-}
+
 .img-gap {
   gap: 30px;
   justify-content: center;
+  width: 1200px;
 }
 .nav-wrapper {
   display: flex;
-align-items: center;
-}
-.figure {
-  display: flex;
-  justify-content: center;
+  align-items: center;
 }
