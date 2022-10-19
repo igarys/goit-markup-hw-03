@@ -62,6 +62,7 @@ body {
   font-size: 44px;
   font-weight: 900;
   color: #ffffff;
+
  
 }
 .button {
@@ -75,6 +76,7 @@ body {
   padding-block: 10px;
   padding-left: 42px;
   padding-right: 41px;
+  
 }
 .lorem-ipsum {
   font-family: inherit;
@@ -211,7 +213,7 @@ margin-top: 94px;
   width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
-  padding: 0 15px;
+ padding: 0 7px;
 }
 .section {
   padding-block: 94px;
@@ -241,17 +243,16 @@ margin-top: 94px;
 }
 
 .motto {
-  margin: 0 auto;
+  margin: auto;
   text-align: center;
   justify-content: center;
   width: 696px;
-  flex-wrap: wrap;
-  display: flexbox;
+  /* flex-wrap: wrap; */
+  /* display: flex; */
+   
 }
 
-/* .team-description {
-  text-align: center;
- } */
+
 .image-box {
   box-sizing: border-box;
   background-color: var(--active-text-color);
@@ -274,7 +275,7 @@ margin-top: 94px;
 .img-gap {
   gap: 30px;
   justify-content: center;
-  width: 1200px;
+
 }
 .nav-wrapper {
   display: flex;
