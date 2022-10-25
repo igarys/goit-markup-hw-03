@@ -62,7 +62,7 @@ body {
   font-size: 44px;
   font-weight: 900;
   color: #ffffff;
-  margin-bottom: 30px;
+ margin-top: 0;
 
  
 }
@@ -244,8 +244,6 @@ margin-block: 9px;
   background-color: var(--background-color);
   height: 600px;
   display: flex;
-  /* text-align: center;
-       justify-content: center; */
 }
 .header-border {
   border-bottom: 1px solid #ececec;
@@ -262,8 +260,6 @@ margin-block: 9px;
   text-align: center;
   justify-content: center;
   width: 696px;
-  /* flex-wrap: wrap; */
-  /* display: flex; */
    
 }
 
